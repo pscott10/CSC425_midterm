@@ -8,7 +8,7 @@ const QuizPage = () => {
 
   const navigate = useNavigate();
 
-  const questions = [
+  const questions = [ //array of MC questions for the quiz
     {
         question: "What is the primary purpose of HTML in web development?",
         options: [
@@ -70,6 +70,7 @@ const QuizPage = () => {
         <h1>Take Quiz to Qualify</h1>
         <p>Welcome to the qualifier quiz</p>
 
+        {/*Checking and going through quiz questions*/}
         {currentQuestionIndex <questions.length ? (
             <div>
                 <h2>{questions[currentQuestionIndex].question}</h2>

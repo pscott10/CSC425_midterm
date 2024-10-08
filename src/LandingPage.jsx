@@ -9,8 +9,7 @@ const LandingPage = () => {
   };
  
     return (
-        <button onClick={goToQuizPage}>Go to Quiz Page</button>
-
+      <button onClick={goToQuizPage}>Go to Quiz Page</button> /*Button for going to quiz page*/
     );
   };
   

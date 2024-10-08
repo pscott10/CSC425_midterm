@@ -11,7 +11,7 @@ const App = () => {
     <div>
       <h1>Home Page</h1>
       <p>Welcome to the homepage!</p>
-      <button onClick={goToLoginPage}>Go to Login Page</button>
+      <button onClick={goToLoginPage}>Go to Login Page</button> {/*Button to go to Login page*/}
     </div>
   );
 };

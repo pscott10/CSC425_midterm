@@ -24,9 +24,10 @@ const LoginPage = () => {
         <p>This is the Login Page.</p>
 
         <div>
-        <h1>You have landed</h1>
+        <h3>You have landed</h3>
         <p>Welcome Potential Hackers</p>
 
+        {/*input for username and password fields to be validated*/}
         <div>
             <input
             type="text"
